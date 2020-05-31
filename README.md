@@ -12,8 +12,6 @@
 For instructions on how to setup and run this project go to the [starter code section.](https://github.com/tommytracey/DeepRL-P3-Collaboration-Competition#project-starter-code)
 ##### &nbsp;
 
-The write-up below is also available [here as a blog post](https://medium.com/@thomastracey/training-two-agents-to-play-tennis-8285ebfaec5f).
-
 ## Project Background: Why Multi-agent RL Matters
 For artificial intelligence (AI) to reach its full potential, AI systems need to interact safely and efficiently with humans, as well as other agents. There are already environments where this happens on a daily basis, such as the stock market. And there are future applications that will rely on productive agent-human interactions, such as self-driving cars and other autonomous vehicles.
 
@@ -219,10 +217,6 @@ The implementation of the replay buffer can be found [here](https://github.com/t
 
 ## Results
 Once all of the above components were in place, the agents were able to solve the Tennis environment. Again, the performance goal is an average reward of at least +0.5 over 100 episodes, taking the best score from either agent for a given episode.
-
-[Here](https://youtu.be/jOWWzygOi1A) is a video showing the trained agents playing a few points.
-
-<a href="https://youtu.be/jOWWzygOi1A"><img src="assets/video-thumbnail.png" width="30%" align="top-left" alt="" title="Tennis Agent Video" /></a>
 
 The graph below shows the final training results. The best-performing agents were able to solve the environment in 607 episodes, with a top score of 5.2 and a top moving average of 0.927. The complete set of results and steps can be found in [this notebook](Tennis.ipynb).
 
